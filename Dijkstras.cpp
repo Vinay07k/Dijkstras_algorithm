@@ -7,7 +7,9 @@
 
 using namespace std;
 
+
 //data in a linked list are of type pair to store the name and value of graph node
+
 class Pair
 {
 	public:
@@ -16,7 +18,9 @@ class Pair
 		Pair(const int& n, const int v): name(n), value(v) {}
 };
 
+
 //Nodeinfo is used to implement min heap
+
 class Nodeinfo
 {
 public:
@@ -37,7 +41,9 @@ class NodeinfoComp
 	}
 };
 
+
 //This will assign a number to each node name(of type string) for easy traversing of the graph
+
 void findyourplace(map<string,int>& a,string& s, int& token)
 {
 	if(a.find(s) == a.end())
@@ -47,7 +53,9 @@ void findyourplace(map<string,int>& a,string& s, int& token)
 	}
 }
 
+
 //This function will explore all the connected nodes from a given node
+
 void explore(const int num,vector < list < Pair > >& graph, priority_queue<Nodeinfo, vector<Nodeinfo>, NodeinfoComp>& heap, vector<int>& arr)
 {
 	list<Pair>::iterator it;
