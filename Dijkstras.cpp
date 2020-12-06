@@ -31,7 +31,9 @@ public:
 	Nodeinfo(const int& s, const int v): name(s), val(v) {} 
 };
 
+
 //NodeinfoComp is used to implement min heap
+
 class NodeinfoComp
 {
 	public:
