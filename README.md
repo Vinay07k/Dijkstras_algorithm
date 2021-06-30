@@ -8,4 +8,4 @@ https://docs.google.com/document/d/1GI0p_UABim8a8BhfkEuJXpP9jkmLcbvPdPIUL8qMjvw/
 This program has all the details on:
 -how to build a graph in C++
 -how to use several data structures such as queue(priority_queue), map, vectors and list.
--Finally perfrom the task of finding the shortest path using dijkstras algorithm in C++
+-Finally perfrom the task of finding the shortest path using dijkstras algorithm in C++.
